@@ -1,660 +1,128 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Showcas3D</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-   ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-   ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-   ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-	================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+	<title>Showcas3D</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
-
-<body id="top">
-   <header id="header" class="row">   
-
-   		<div class="header-logo">
-	        <a href="index.html">Showcas3D</a>
-	    </div>
-
-	   	<nav id="header-nav-wrap">
-			<ul class="header-main-nav">
-				<li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">TL;DR</a></li>
-				<li><a class="smoothscroll"  href="#utilisateur" title="utilisateur">Utilisateur</a></li>
-				<li><a class="smoothscroll"  href="#professionnel" title="professionnel">Professionnel</a></li>
-				<li><a class="smoothscroll"  href="#testimonials" title="team">L'équipe</a></li>	
-			</ul>
-
-            <a href="#" title="newsletter" class="button button-primary cta">Newsletter</a>
-		</nav>
-
-		<a class="header-menu-toggle" href="#"><span>Menu</span></a>
-   </header> 
-
-    <ul class="home-social-list">
-        <li>
-            <a href="#"><i class="fa fa-facebook-square"></i></a>
-        </li>
-        <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-        </li>
-        <li>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-        </li>
-        <li>
-            <a href="#"><i class="fa fa-youtube-play"></i></a>
-        </li>
-    </ul>
-
-    <section id="about">
-
-        <div class="row about-intro">
-
-            <div class="col-four">
-                <h1 class="intro-header" data-aos="fade-up">TL;DR de Showcas3D</h1>
-            </div>
-            <div class="col-eight">
-                <p class="lead" data-aos="fade-up">
-                        Showcas3D est une plateforme de mise en relation entre les artistes
-                        (particulièrement 3D) et les professionnels à la recherche de talents correspondant
-                        à leurs besoins.<br>
-                        Showcas3D se démarque de ses concurrents de par la fusion entre
-                        plateforme communautaire et professionnelle, et l’utilisation de critères avancés
-                        lors des mises en relation.
-                </p>
-            </div>                       
-            
-        </div>
-
-        <div class="row about-features">
-            <br>
-                <div class="col-four">
-                        <h1 class="intro-header" data-aos="fade-up">Coté utilisateurs</h1>
-                    </div>
-            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
-
-                <div class="bgrid feature" data-aos="fade-up">	
-
-                    <span class="icon"><i class="icon-window"></i></span>            
-
-                    <div class="service-content">	
-                        
-                            <h3>Votre portfolio professionnel</h3>
-
-                            <p> Regrouper vos créations en un seul endroit sécurisé.
-                                Mettez les en valeurs en positionnants vos oeuvres representatives de votre style dans diverses scénes préparés par nos soins.<br>
-                                Des créations appréciés par la communauté sont plus facilement mises en avant, une visibilité mérité.
-                            </p>
-                    
-                        
-                    </div> 	         	 
-
-                </div>
-
-                <div class="bgrid feature" data-aos="fade-up">	
-
-                        <span class="icon"><i class="icon-image"></i></span>                          
-
-                    <div class="service-content">	
-                        <h3>Garder un contact</h3>  
-
-                        <p>Envoyer des messages à vos artistes préférés et répondez à votre communauté en toute simplicité.<br>Bien sur garder la partie communautaire et professionelle séparés pour mieux gérer vos interactions!
-                        </p>
-
-                        
-                    </div>	                          
-
-                </div>
-
-                <div class="bgrid feature" data-aos="fade-up">
-
-                    <span class="icon"><i class="icon-paint-brush"></i></span>		            
-
-                    <div class="service-content">
-                        <h3>Vendre facilement vos créations</h3>
-
-                        <p> Vous pouvez mettre vos créations en vente au prix que vous voulez.<br>
-                            Nous nous occupons du reste.
-                        </p> 
-                            
-                    </div> 	            	               
-
-                </div>
-
-            </div>
-
-            <div class="col-four">
-                <h1 class="intro-header" data-aos="fade-up">Coté recruteurs</h1>
-           </div>
-
-            <div class="features-list block-1-3 block-m-1-2 block-mob-full group">
-                
-                <div class="bgrid feature" data-aos="fade-up">
-
-                    <span class="icon"><i class="icon-file"></i></span>	              
-
-                    <div class="service-content">
-
-                            <h3>Monitorer vos offres d'emploi</h3>
-
-                            <p> Mettez en ligne vos offres d'emploi du momment gratuitement et visualiser facilement le traffic engendré par vos offres de carriéres.<br>
-                                Accédez à la liste des profils d'utilisateurs ayant candidater.
-                            </p>
-                        
-                    </div>                
-
-                </div> <!-- /bgrid -->
-
-                <div class="bgrid feature" data-aos="fade-up">
-
-                    <span class="icon"><i class="icon-sliders"></i></span>	            
-
-                    <div class="service-content">	
-                        <h3>Des recherches de profil simplifié</h3>
-
-                        <p>Nous vous mettons en avant des showcase d'artistes par rapport à vos critères de recherche en plus des showcases d'artistes les plus populaires pour faciliter vos recherches de candidats.
-                        </p>                            
-                    </div>	               
-
-                </div> <!-- /bgrid -->
-
-                <div class="bgrid feature" data-aos="fade-up">
-
-                    <span class="icon"><i class="icon-gift"></i></span>	   	           
-
-                    <div class="service-content">
-                        <h3>Free of Charge</h3>
-
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                        </p> 
-                            
-                    </div>	               
-
-                </div> <!-- /bgrid -->
-
-            </div> <!-- end features-list -->
-
-        </div> <!-- end about-features -->
-
-        <div class="row about-how">
-          
-            <h1 class="intro-header" data-aos="fade-up">How The App Works?</h1>           
-
-            <div class="about-how-content" data-aos="fade-up">
-                <div class="about-how-steps block-1-2 block-tab-full group">
-
-                    <div class="bgrid step" data-item="">
-                            <h3>Votre portfolio professionnel</h3>
-
-                            <p> Regrouper vos créations en un seul endroit sécurisé.
-                                Mettez les en valeurs en positionnants vos oeuvres representatives de votre style dans diverses scénes préparés par nos soins.<br>
-                                Des créations appréciés par la communauté sont plus facilement mises en avant, une visibilité mérité.
-                            </p>
-                    </div>
-
-                    <div class="bgrid step" data-item="">
-                            <h3>Monitorer vos offres d'emploi</h3>
-    
-                            <p> Mettez en ligne vos offres d'emploi du momment gratuitement et visualiser facilement le traffic engendré par vos offres de carriéres.<br>
-                                Accédez à la liste des profils d'utilisateurs ayant candidater.
-                            </p>
-                    </div>  
-
-                    <div class="bgrid step" data-item="">
-                        <h3>Garder un contact</h3>  
-
-                        <p>Envoyer des messages à vos artistes préférés et répondez à votre communauté en toute simplicité.<br>Bien sur garder la partie communautaire et professionelle séparés pour mieux gérer vos interactions!
-                        </p> 
-                    </div>               
-               
-                    <div class="bgrid step" data-item="">
-                            <h3>Des recherches de profil simplifié</h3>
-
-                            <p>Nous vous mettons en avant des showcase d'artistes par rapport à vos critères de recherche en plus des showcases d'artistes les plus populaires pour faciliter vos recherches de candidats.
-                            </p>      
-                    </div>
-
-                    <div class="bgrid step" data-item="">
-                            <h3>Vendre facilement vos créations</h3>
-
-                            <p> Vous pouvez mettre vos créations en vente au prix que vous voulez.<br>
-                                Nous nous occupons du reste.
-                            </p> 
-                    </div>
-
-                    <div class="bgrid step" data-item="">
-                            <h3>Free of Charge</h3>
-
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                            </p> 
-                    </div>
-
-                </div>           
-           </div>
-
-        </div>
-        
-    </section>
-
-    <!-- Testimonials Section
-    ================================================== -->
-    <section id="testimonials">
-
-        <div class="row">
-            <div class="col-twelve">
-                <h1 class="intro-header" data-aos="fade-up">L'équipe</h1>
-            </div>   		
-        </div>
-
-        <!--
-        <div class="row owl-wrap"></WS>
-            <div class="col-1-6 mycol">
-                <div>
-                    <img src="images/avatars/philippe.bouttereux.jpg" alt="Author image">
-
-                        Philippe Bouttereux
-                        <span>Developpeur Back End</span>
-                </div>
-                <div>
-                    <img src="images/avatars/andy.iiyama.jpg" alt="Author image">
-
-                        Andy Iiyama
-                        <span>Developpeur Back End</span>
-                </div>
-                <div>
-                    <img src="images/avatars/antoine.gannat.jpg" alt="Author image">
-
-                        Antoine Gannat
-                        <span>Developpeur Back End</span>
-                </div>
-                <div>
-                    <img src="images/avatars/mathis.rousselot.jpg" alt="Author image">
-
-                        Mathis Rousselot
-                        <span>Developpeur WebGL</span>
-                </div>
-                    <img src="images/avatars/joseph.png" alt="Author image">
-
-                        Joseph Hammad
-                        <span>Developpeur Front End</span>
-
-
-                    <img src="images/avatars/morgan.simon.jpg" alt="Author image">
-
-                        Morgan Simon
-                        <span>Developpeur Front End</span>
-                </div>
-            </div>                 
-            -->
-
-                <!-- </div> end slides -->
-
-            <!-- </div> end testimonial-slider          -->
-            
-        <!-- </div> end flex-container -->
-        <div class="row">
-          <div class="column">
-            <div class="card">
-              <img src="images/avatars/philippe.bouttereux.jpg" alt="Jane" style="width:100%">
-              <div class="container">
-                <h2>Jane Doe</h2>
-                <p class="title">CEO &amp; Founder</p>
-                <p><button class="button">Contact</button></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <img src="images/avatars/andy.iiyama.jpg" alt="Mike" style="width:100%">
-              <div class="container">
-                <h2>Mike Ross</h2>
-                <p class="title">Art Director</p>
-                <p><button class="button">Contact</button></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <img src="images/avatars/antoine.gannat.jpg" alt="John" style="width:100%">
-              <div class="container">
-                <h2>John Doe</h2>
-                <p class="title">Designer</p>
-                <p><button class="button">Contact</button></p>
-              </div>
-            </div>
-          </div>
-          </div>
-          <div class="row">
-          <div class="column">
-            <div class="card">
-              <img src="images/avatars/mathis.rousselot.jpg" alt="John" style="width:100%">
-              <div class="container">
-                <h2>John Doe</h2>
-                <p class="title">Designer</p>
-                <p><button class="button">Contact</button></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <img src="images/avatars/morgan.simon.jpg" alt="John" style="width:100%">
-              <div class="container">
-                <h2>John Doe</h2>
-                <p class="title">Designer</p>
-                <p><button class="button">Contact</button></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="column">
-            <div class="card">
-              <img src="images/avatars/joseph.png" alt="John" style="width:100%">
-              <div class="container">
-                <h2>John Doe</h2>
-                <p class="title">Designer</p>
-                <p><button class="button">Contact</button></p>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
-<!--                         <div class="heading-title text-center">
-                            <h3 class="text-uppercase">Our professionals </h3>
-                            <p class="p-top-30 half-txt">Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. </p>
-                        </div>
-        <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="images/avatars/philippe.bouttereux.jpg" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Hi There !</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Martin Smith</h5>
-                                <span>founder &amp; ceo</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="images/avatars/antoine.gannat.png" alt="team member" class="img-responsive" style="border-radius:100%">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>Hello World</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Franklin Harbet</h5>
-                                <span>HR Manager</span>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="images/avatars/mathis.rousselot.jpg" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>I love to design</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Linda Anderson</h5>
-                                <span>Marketing Manager</span>
-                            </div>
-                        </div>
-
-                        </div>
-
-                        <div class="row">
-
-                        <div class="col-md-2 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="images/avatars/morgan.simon.jpg" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>I love to design</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Linda Anderson</h5>
-                                <span>Marketing Manager</span>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="images/avatars/andy.iiyama.jpg" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>I love to design</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Linda Anderson</h5>
-                                <span>Marketing Manager</span>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-4">
-                            <div class="team-member">
-                                <div class="team-img">
-                                    <img src="images/avatars/joseph.png" alt="team member" class="img-responsive">
-                                </div>
-                                <div class="team-hover">
-                                    <div class="desk">
-                                        <h4>I love to design</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
-                                    </div>
-                                    <div class="s-link">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-title">
-                                <h5>Linda Anderson</h5>
-                                <span>Marketing Manager</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    </div>
-
-                </div> -->
-
-<!--     <div class="container">
-        <div class="row m-b-lg">
-            <div class="col-lg-12 text-center">
-                <div class="navy-line"></div>
-                <h1>Our Team</h1>
-                <p>Get a closer look at what we do and meet our team members.</p>
-            </div>
-        </div>
-        <div class="row slickslide">
-            <div class="col-sm-3 wow fadeInLeft ">
-                <div class="team-member">
-                    <img src="images/avatars/andy.iiyama.jpg" class="img-responsive img-circle" alt="Guillaume Jourdain">
-                    <h4><span class="navy">Guillaume</span> Jourdain</h4>
-                    <p>CEO</p>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="team-member wow fadeInLeft ">
-                    <img src="images/avatars/andy.iiyama.jpg" class="img-responsive img-circle" alt="Hugo Serrat">
-                    <h4><span class="navy">Hugo</span> Serrat</h4>
-                    <p>R&D</p>
-                </div>
-            </div>
-            <div class="col-sm-3 wow fadeInLeft ">
-                <div class="team-member">
-                    <img src="images/avatars/andy.iiyama.jpg" class="img-responsive img-circle" alt="Jules Beguerie">
-                    <h4><span class="navy">Jules</span> Beguerie</h4>
-                    <p>Production & Terrain</p>
-                </div>
-            </div>
-            <div class="col-sm-3 wow fadeInLeft ">
-                <div class="team-member">
-                    <img src="images/avatars/andy.iiyama.jpg" class="img-responsive img-circle" alt="Nicolas Paquet">
-                    <h4><span class="navy">Nicolas</span> Paquet</h4>
-                    <p>Embedded Software Engineer</p>
-                </div>
-            </div>
-            <div class="col-sm-3 wow fadeInLeft ">
-                <div class="team-member">
-                    <img src="images/avatars/andy.iiyama.jpg" class="img-responsive img-circle" alt="Lucas Bugnazet">
-                    <h4><span class="navy">Lucas</span> Bugnazet</h4>
-                    <p>Business Development & Marketing</p>
-                </div>
-            </div>
-            <div class="col-sm-3 wow fadeInLeft ">
-                <div class="team-member">
-                    <img src="images/avatars/andy.iiyama.jpg" class="img-responsive img-circle" alt="Lucas Bugnazet">
-                    <h4><span class="navy">Lucas</span> Bugnazet</h4>
-                    <p>Business Development & Marketing</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-                <p>To meet us, please use the contact form below.</p>
-            </div>
-        </div>
-    </div> -->
-
-
-    </section> <!-- end testimonials -->
-    
-    <!-- footer
-    ================================================== -->
-    <footer>
-
-        <div class="footer-main">
-            <div class="row">  
-                            
-                </div> <!-- end footer-site-links --> 
-
-                <div class="col-four md-1-2 tab-full footer-subscribe">
-
-                    <h4>Notre Newsletter</h4>
-
-                    <p>Si vous étes intéréssés par notre projet entré votre email ci dessous pour vous tenir informé des évolutions de la plateforme.</p>
-
-                    <div class="subscribe-form">
-                
-                        <form id="mc-form" class="group" novalidate="true">
-
-                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required=""> 
-                
-                            <input type="submit" name="subscribe" value="Send">
-                
-                            <label for="mc-email" class="subscribe-message"></label>
-                
-                        </form>
-
-                    </div>	      		
-                            
-                </div> <!-- end footer-subscribe -->         
-
-            </div> <!-- /row -->
-        </div> <!-- end footer-main -->
-
-
-      <div class="footer-bottom">
-
-      	<div class="row">
-                <div class="copyright">
-                        <span>Design by <a href="http://www.styleshout.com/">styleshout</a></span>		         	
-                </div>
-		         <div id="go-top">
-		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"></i></a>
-		         </div>         
-	      	</div>
-
-      	</div> <!-- end footer-bottom -->     	
-
-      </div>
-
-    </footer>
-
-    <div id="preloader"> 
-    	<div id="loader"></div>
-    </div>  
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
-</html>
+<body>
+	
+	<!-- Header -->
+	<div id="header">
+		<span class="logo icon fa-paper-plane-o"></span>
+		<h1>Hi. This is Directive.</h1>
+		<p>A responsive HTML5 + CSS3 site template designed by <a href="http://html5up.net">HTML5 UP</a>
+			<br />
+			and released for free under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
+		</div>
+		
+		<!-- Main -->
+		<div id="main">
+			
+			<header class="major container 75%">
+				<h2>We conduct experiments that
+					<br />
+					may or may not seriously
+					<br />
+					break the universe</h2>
+					<!--
+						<p>Tellus erat mauris ipsum fermentum<br />
+							etiam vivamus nunc nibh morbi.</p>
+						-->
+					</header>
+					
+					<div class="box alt container">
+						<section class="feature left">
+							<a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a>
+							<div class="content">
+								<h3>The First Thing</h3>
+								<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							</div>
+						</section>
+						<section class="feature right">
+							<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+							<div class="content">
+								<h3>The Second Thing</h3>
+								<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							</div>
+						</section>
+						<section class="feature left">
+							<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
+							<div class="content">
+								<h3>The Third Thing</h3>
+								<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							</div>
+						</section>
+					</div>
+					
+					<footer class="major container 75%">
+						<h3>Get shady with science</h3>
+						<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Join our crew</a></li>
+						</ul>
+					</footer>
+					
+				</div>
+				
+				<!-- Footer -->
+				<div id="footer">
+					<div class="container 75%">
+						
+						<header class="major last">
+							<h2>Questions or comments?</h2>
+						</header>
+						
+						<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
+							orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
+							
+							<form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u(mobilep)">
+										<input type="text" name="name" placeholder="Name" />
+									</div>
+									<div class="6u 12u(mobilep)">
+										<input type="email" name="email" placeholder="Email" />
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<textarea name="message" placeholder="Message" rows="6"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+							
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							</ul>
+							
+							<ul class="copyright">
+								<li>&copy; Showcas3D. All rights reserved.</li>
+							</ul>
+							
+						</div>
+					</div>
+					
+					<!-- Scripts -->
+					<script src="assets/js/jquery.min.js"></script>
+					<script src="assets/js/skel.min.js"></script>
+					<script src="assets/js/util.js"></script>
+					<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+					<script src="assets/js/main.js"></script>
+					
+				</body>
+				</html>
