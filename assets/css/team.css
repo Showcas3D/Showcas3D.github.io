@@ -1,0 +1,62 @@
+h2 { margin: 0 auto; }
+
+.super-team {
+    width: 80%;
+    margin: 0 auto;
+    
+    position: relative;
+}
+
+.team {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+
+.member-container {
+    text-align: center;
+    padding: 0px;
+}
+
+.photo, .member-social {
+    width: 220px; height: 220px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.member-name {
+    position: relative;
+    margin: 15px;
+    font: 22px/.4em 'opensans-bold', sans-serif;
+}
+
+.member-social {
+    opacity: 0;
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color: #ccc;
+    transition: all .5s;
+    line-height: 320px;
+}
+
+.member-social:hover {
+    line-height: 235px;
+    opacity: .7;
+}
+
+.b {
+    position: relative;
+    margin: 2px;
+    color: black;
+    cursor: pointer;
+}
+
+.b:hover { color: #11ABB0; }
+
+.mail { font-size: 30px;}
