@@ -3112,3 +3112,12 @@
 				}
 
 	}
+
+
+.logo_sc3d {
+    width: 170px; height: 170px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
