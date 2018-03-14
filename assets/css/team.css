@@ -30,7 +30,7 @@ h2 { margin: 0 auto; }
 .member-name {
     position: relative;
     margin: 15px;
-    font: 22px/.4em 'opensans-bold', sans-serif;
+    font: 1em 'opensans-bold', sans-serif;
 }
 
 .member-social {
